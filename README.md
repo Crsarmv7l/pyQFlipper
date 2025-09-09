@@ -23,6 +23,10 @@ Most of my testing was doing using Subghz files. If you see a bug please let me 
 - Run it (should work from any folder/path)
   - Upload files need to be in the same directory as qflippercli.py
   - Similarly, downloaded files can be found in that same directory
+- One operation is done each time (One Upload/Download/Rename/Deletion) then it cycles back to the Main Menu ready for another operation.
+- Filenames can but don't need to include the file extension.
+  - I take the user input as a search term for files in that directory
+  - There are file checks on both the Flipper and Locally. The operation is aborted if there is a conflict (eg trying to download Garage.sub if there is already a Garage.sub locally. Same for Uploads/Rename/Deletion if the files already exist/or if the desired file cannot be found due to a typo)
 
 # License:
 You are free to use this for any purpose you desire provided attribution is provided or Splash Screen is retained
