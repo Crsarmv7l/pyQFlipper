@@ -13,7 +13,7 @@ I had originally planned to incorporate Update functionality, but I am not far e
 pyFlipper Repo: https://github.com/wh00hw/pyFlipper/ 
 was referenced once or twice, but ultimately discarded with my own implements built.
 
-PyFlipper is a straight implement of the Flipper CLI API. pyQFlipper abuses the Flipper CLI API to upload and download instead of just moving things internally on the flipper. I also found PyFlipper to be a bit overkill.
+PyFlipper is a straight implement of the Flipper CLI API. pyQFlipper provides a user menu, and abuses the Flipper CLI API to upload and download instead of just moving things internally on the flipper. I also found PyFlipper to be a bit overkill.
 
 Most of my testing was doing using Subghz files. If you see a bug please let me know
 
