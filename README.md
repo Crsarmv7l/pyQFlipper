@@ -17,7 +17,7 @@ PyFlipper is a straight implement of the Flipper CLI API. pyQFlipper abuses the 
 
 Most of my testing was doing using Subghz files. If you see a bug please let me know
 
-#Usage:
+# Usage:
 - Install the python Serial package according to your distro. Ensure group/user permissions are set appropriately.
 - Grant pyQFlipper.py execute permission.
 - Run it (should work from any folder/path.
