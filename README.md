@@ -1,5 +1,5 @@
 # pyQFlipper
-CLI Menu based Serial python implementation of Flipper CLI api to enable file transfer (both to and from), as well as rename and deletion
+CLI Menu based Serial python implementation of Flipper CLI api to enable file transfer (both to and from the Flipper), as well as rename and deletion of files on the Flipper.
 
 This is likely not useful to many, as Qflipper, the Android App, and Flipper Lab cover most use cases.
 Unfortunately I use a linux phone (with an Android container) which doesn't have bluetooth passthrough so the Android App doesn't work for me.
