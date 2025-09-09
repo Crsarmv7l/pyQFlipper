@@ -1,8 +1,8 @@
 # pyQFlipper
 CLI Menu based Serial python implementation of Flipper CLI api to enable file transfer (both to and from), as well as rename and deletion
 
-This is likely not useful to many, as Qflipper the Android App and Flipper Lab cover most use cases.
-Unfortunately I use a linux phone (with an Android container) which doesn't have bluetooth, so the Android App doesn't work for me.
+This is likely not useful to many, as Qflipper, the Android App, and Flipper Lab cover most use cases.
+Unfortunately I use a linux phone (with an Android container) which doesn't have bluetooth passthrough so the Android App doesn't work for me.
 Qflipper does work and installs/Sees the flipper just fine.....But phosh does not support drag and drop.
 Web Serial would probably also work, but I didn't want to install Chromium solely for that purpose, and also want offline functionality. 
 
