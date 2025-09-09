@@ -19,7 +19,7 @@ Most of my testing was doing using Subghz files. If you see a bug please let me 
 
 # Usage:
 - Install the python Serial package according to your distro. Ensure group/user permissions are set appropriately.
-- Grant pyQFlipper.py execute permission.
+- Grant qflippercli.py execute permission.
 - Run it (should work from any folder/path)
-  - Upload files need to be in the same directory as pyQFlipper.py
+  - Upload files need to be in the same directory as qflippercli.py
   - Similarly, downloaded files can be found in that same directory
