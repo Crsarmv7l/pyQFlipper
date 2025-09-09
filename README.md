@@ -10,9 +10,16 @@ So I built this to transfer files back and forth with a USB-C.
 
 I had originally planned to also incorporate Update functionality, but I am not far enough in understanding the flipper RPC communications.
 
-pyFlipper Repo was referenced once or twice, but ultimately discarded with my own implements built:
-https://github.com/wh00hw/pyFlipper/
+pyFlipper Repo: https://github.com/wh00hw/pyFlipper/ 
+was referenced once or twice, but ultimately discarded with my own implements built.
 
 PyFlipper is a straight implement of the Flipper CLI API. pyQFlipper abuses the Flipper CLI API to upload and download instead of just moving things internally on the flipper. I also found PyFlipper to be a bit overkill.
 
 Most of my testing was doing using Subghz files. If you see a bug please let me know
+
+#Usage:
+- Install the python Serial package according to your distro. Ensure group/user permissions are set appropriately.
+- Grant pyQFlipper.py execute permission.
+- Run it (should work from any folder/path.
+-   Upload files need to be in the same directory as pyQFlipper.py
+-   Similarly, downloaded files can be found in that same directory
