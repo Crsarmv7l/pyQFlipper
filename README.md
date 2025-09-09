@@ -8,7 +8,7 @@ Web Serial would probably also work, but I didn't want to install Chromium solel
 
 So I built this to transfer files back and forth with a USB-C.
 
-I had originally planned to also incorporate Update functionality, but I am not far enough in understanding the flipper RPC communications.
+I had originally planned to incorporate Update functionality, but I am not far enough along in understanding the flipper RPC communication.
 
 pyFlipper Repo: https://github.com/wh00hw/pyFlipper/ 
 was referenced once or twice, but ultimately discarded with my own implements built.
