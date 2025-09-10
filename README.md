@@ -1,3 +1,6 @@
+# Kek that didn't last long
+# Someone else has already made a decent BLE cli implement for BlueZ (albeit in Rust, but everybody has their issues 😝), which this was a stepping stone to doing. Makes my life easier since I just need to write a python wrapper (I forget cli args with all the RF stuff I have done and vastly prefer prompts). Check it out here https://github.com/elijah629/flipper-rpc
+
 # pyQFlipper
 CLI Menu based Serial python implementation of Flipper CLI api to enable file transfer (both to and from the Flipper), as well as rename and deletion of files on the Flipper.
 
